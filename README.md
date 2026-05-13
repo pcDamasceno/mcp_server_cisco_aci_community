@@ -33,6 +33,8 @@ A <strong>stand-alone MCP server</strong> built with <a href="https://github.com
 
 This MCP server acts as a lightweight middleware layer between **Cisco ACI (Application Centric Infrastructure)** and any **MCP-compatible client**. It allows an LLM to query the ACI fabric, inspect tenants, EPGs, bridge domains, faults, and fabric health — and to create or delete policy objects — all through structured MCP tools.
 
+This is a community based project and is not officially supported by any Cisco Business or Technical entity.
+
 The server communicates with the APIC REST API using cookie-based authentication and supports 50 operations covering the full ACI policy model.
 
 ---
