@@ -1,6 +1,6 @@
 # Security Policies and Procedures
 
-This document outlines security procedures and general policies for the `aci-mcp-server` project.
+This document outlines security procedures and general policies for the `cisco_aci_mcp_community` project.
 
 ## Disclosing a security issue
 
