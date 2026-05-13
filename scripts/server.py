@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+# Copyright 2025 Cisco Systems, Inc. and its affiliates
+# 
+# SPDX-License-Identifier: Apache-2.0 
+
 """
 ACI MCP Server - Comprehensive Version with 50 Operations (GET and POST)
 Most common ACI operations for complete network automation workflows
