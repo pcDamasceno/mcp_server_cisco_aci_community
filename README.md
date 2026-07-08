@@ -9,6 +9,10 @@
 
 <br />
 
+<p align="center">
+  <img src="docs/images/banner.jpg" alt="Cisco ACI MCP Server" width="900">
+</p>
+
 <div align="center">
 A <strong>stand-alone MCP server</strong> built with <a href="https://github.com/jlowin/fastmcp"><strong>FastMCP</strong></a> that exposes <strong>50 ACI operations</strong> as MCP tools. Connect any <strong>MCP-compatible client</strong> and <strong>LLM</strong> to query, provision, and manage your Cisco ACI fabric through natural language.
 </div>
