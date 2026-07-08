@@ -17,6 +17,17 @@
 A <strong>stand-alone MCP server</strong> built with <a href="https://github.com/jlowin/fastmcp"><strong>FastMCP</strong></a> that exposes <strong>50 ACI operations</strong> as MCP tools. Connect any <strong>MCP-compatible client</strong> and <strong>LLM</strong> to query, provision, and manage your Cisco ACI fabric through natural language.
 </div>
 
+
+<h2 align="center">🎥 Watch the Demo</h2>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ONOgrUq3Z5w">
+    <img src="https://img.youtube.com/vi/ONOgrUq3Z5w/maxresdefault.jpg"
+         alt="Cisco ACI MCP Server Demo"
+         width="800">
+  </a>
+</p>
+
 ---
 
 ## Table of Contents
