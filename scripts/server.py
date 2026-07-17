@@ -780,4 +780,14 @@ def aci_get_operations_summary() -> Dict[str, Any]:
     }
 
 if __name__ == "__main__":
-    mcp.run()
+    # Transport is selectable via environment variables so the same server can
+    # run over stdio (default, for local MCP clients) or streamable HTTP.
+    transport = os.getenv("MCP_TRANSPORT", "stdio").lower()
+
+    if transport in ("http", "streamable-http"):
+        host = os.getenv("MCP_HOST", "127.0.0.1")
+        port = int(os.getenv("MCP_PORT", "8000"))
+        logger.info(f"Starting ACI MCP server over HTTP at http://{host}:{port}/mcp")
+        mcp.run(transport="http", host=host, port=port)
+    else:
+        mcp.run()
